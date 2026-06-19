@@ -128,9 +128,9 @@ Learn how to manage local user accounts in Windows.
 #### Commands Used
 
 ```cmd
-net user userf admin1234
+net user user_exm admin1234
 
-runas /user:userf cmd
+runas /user:user_exm cmd
 
 whoami
 ```
